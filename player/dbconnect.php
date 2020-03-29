@@ -1,8 +1,8 @@
 <?php
-$servername = "192.168.64.145";
-$username = "innovationcenter";
-$password = "innovation123$$";
-$dbname = "innovationcenter_tambola";
+$servername = "tambola-game-heroku.cgzeeefjondj.us-east-1.rds.amazonaws.com";
+$username = "root";
+$password = "KF6QuSYdsDc70n0tgYjD";
+$dbname = "tambola";
 
 // Create connection
 $con = new mysqli($servername, $username, $password, $dbname);
