@@ -1,0 +1,10 @@
+Tambola Real Time Game Generator and Player using PHP and Firebase
+Instructions to setup:
+1. Install XAMPP or any Apache PHP MySQL solution based server.
+2. Create a new Firebase project at console.firebase.com
+3. Enable the Realtime Database with open security rules.
+4. Copy the configuration information and paste the required details at admin/number.php, player/player.php and cron-delete/index.php.
+5. Edit admin/dbconnect.php, player/dbconnect.php, and cron-delete/dbconnect.php with your database credentials
+5. Import the SQL File into the database.
+6. Start a new game using the admin and players can login using the auto generated OTP.
+7. For issues, please raise a pull request.
